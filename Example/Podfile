@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MPopUpAlertManager_Example' do
+  pod 'MPopUpAlertManager', :path => '../'
+
+  target 'MPopUpAlertManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
