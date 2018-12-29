@@ -1,0 +1,16 @@
+PODS:
+  - MPopUpAlertManager (0.1.0)
+
+DEPENDENCIES:
+  - MPopUpAlertManager (from `../`)
+
+EXTERNAL SOURCES:
+  MPopUpAlertManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPopUpAlertManager: f876b57345a9dd6f583753212219260b3d6bbaae
+
+PODFILE CHECKSUM: 895838f334e4518158f4f3101e1e78219389edfa
+
+COCOAPODS: 1.5.3

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		23D7D5AD43BD2900EBAB04BB /* Pods-MPopUpAlertManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPopUpAlertManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPopUpAlertManager_Example/Pods-MPopUpAlertManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4502D134E11586307E9C84E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4502D134E11586307E9C84E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4D1C5B91174ECC08A9D1BCC8 /* Pods_MPopUpAlertManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPopUpAlertManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56143B90B7AA6B10B770CB55 /* Pods-MPopUpAlertManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPopUpAlertManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPopUpAlertManager_Example/Pods-MPopUpAlertManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MPopUpAlertManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPopUpAlertManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,14 +59,14 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		6044E5E948D7DC02D93C368A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6044E5E948D7DC02D93C368A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF0D4194175DFF8FAF72731 /* Pods-MPopUpAlertManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPopUpAlertManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPopUpAlertManager_Tests/Pods-MPopUpAlertManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9974A13A003623DFEC814A13 /* Pods-MPopUpAlertManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPopUpAlertManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPopUpAlertManager_Tests/Pods-MPopUpAlertManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9AD736A6E5CA7275592E2B54 /* Pods_MPopUpAlertManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPopUpAlertManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D04E6317C64721781896D6B2 /* MPopUpAlertManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MPopUpAlertManager.podspec; path = ../MPopUpAlertManager.podspec; sourceTree = "<group>"; };
+		D04E6317C64721781896D6B2 /* MPopUpAlertManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MPopUpAlertManager.podspec; path = ../MPopUpAlertManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06396321D08AE2956B46B15DF9D8BB98 /* Pods-MPopUpAlertManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9EFA7B6B8FD69A1942D92167319573 /* Pods-MPopUpAlertManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B2E10858B6C70385D5A5A72E9FCE371 /* Pods-MPopUpAlertManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB54E1E9DED202594ADFDC7CF6D7760 /* Pods-MPopUpAlertManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56EB79AC9DA69D509684F93BC2B35826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		82DB9E77FAEB6C2CA7ED067246D12BFF /* Pods-MPopUpAlertManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F05789D0BFFD02799A537314B5E1A6 /* Pods-MPopUpAlertManager_Tests-dummy.m */; };
+		90B272D7EFB3FBF1C3D3CDEA9F6CB216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B2B8D9FD5EBEB9E37324063A8BD8B9F3 /* MPopUpAlertManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D13370D489E6D571F2EB458AC9426AF /* MPopUpAlertManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2A896954453EF22CF08D86E4F27105 /* Pods-MPopUpAlertManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F861546299758178942E15514CFACD /* Pods-MPopUpAlertManager_Example-dummy.m */; };
+		E4941CFDA8B55449F92EF4A1F2CB31F6 /* MPopUpAlertManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB684959BF6595D655C2D410EE2A8BF /* MPopUpAlertManager-dummy.m */; };
+		F60B85601D3F57DEF350B8BA20FC8E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54829A9709C36DFAD13F3CA4B3D779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A12BF7996175FC96FED989E9299C13;
+			remoteInfo = MPopUpAlertManager;
+		};
+		C1D6CF461DB3E19C8AF8CDF56CF53AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D526072865B6C4449ABCD34F5E870C25;
+			remoteInfo = "Pods-MPopUpAlertManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB54E1E9DED202594ADFDC7CF6D7760 /* Pods-MPopUpAlertManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPopUpAlertManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		11226409FB8D9585D5E9104B244387D4 /* Pods-MPopUpAlertManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPopUpAlertManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D0A1A78E92ADA924F9E34F357AA2FB3 /* Pods_MPopUpAlertManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPopUpAlertManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F861546299758178942E15514CFACD /* Pods-MPopUpAlertManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPopUpAlertManager_Example-dummy.m"; sourceTree = "<group>"; };
+		309E210387DD68DEFE119187FA70DDD9 /* Pods_MPopUpAlertManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPopUpAlertManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EE8A29FABC3020A5332A53FACCEBE6 /* Pods-MPopUpAlertManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPopUpAlertManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		49CCF21D63F2414D784CA2D73E0A3C06 /* MPopUpAlertManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPopUpAlertManager.modulemap; sourceTree = "<group>"; };
+		4CB50D309B04514A4D072E0F0588C580 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D33308EA35F1DFEA671E55C62606675 /* Pods-MPopUpAlertManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPopUpAlertManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		4FDEA111AFD4AE3322929AAD364834ED /* MPopUpAlertManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPopUpAlertManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D13370D489E6D571F2EB458AC9426AF /* MPopUpAlertManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPopUpAlertManager-umbrella.h"; sourceTree = "<group>"; };
+		63491087EBE4779F707F0886E5098DCC /* Pods-MPopUpAlertManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPopUpAlertManager_Example.modulemap"; sourceTree = "<group>"; };
+		74F667080CEDD1FC2AAC8DA69BA5029F /* Pods-MPopUpAlertManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPopUpAlertManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7632429B56829E074F01EA981A1812BB /* Pods-MPopUpAlertManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPopUpAlertManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F3E582EB2271043304A8A3E1E04D873 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E9118AA29E791C333246F5DDF0BDAA /* Pods-MPopUpAlertManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPopUpAlertManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		984C4299EF6A52C2C6594F2B645E4999 /* Pods-MPopUpAlertManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPopUpAlertManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9967ABEB37ABF9E5D84A9C6FC1E876FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9A1864A19C8B4CC49E559BBC147BE0F3 /* MPopUpAlertManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MPopUpAlertManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F05789D0BFFD02799A537314B5E1A6 /* Pods-MPopUpAlertManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPopUpAlertManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		A28EE162F54F6E379C57B7E161733EB4 /* MPopUpAlertManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPopUpAlertManager-prefix.pch"; sourceTree = "<group>"; };
+		AC66B4420F234C905C772E1AC68E2A7A /* MPopUpAlertManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPopUpAlertManager.xcconfig; sourceTree = "<group>"; };
+		AE9F834D3913F5AA48EE46EB72B71F5E /* Pods-MPopUpAlertManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPopUpAlertManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C48F8D616648CC099EF3DBBEDA42020B /* Pods-MPopUpAlertManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPopUpAlertManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C9313EE140E6EC39166E8365973D46E5 /* Pods-MPopUpAlertManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPopUpAlertManager_Tests.modulemap"; sourceTree = "<group>"; };
+		D48FBE2FDEF86C94088794734FEEE0CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94DF882C33AC3683C1BC3BB45B77B20 /* Pods-MPopUpAlertManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPopUpAlertManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E2AA65E226F3AF4B91C16C6E997AE47B /* Pods-MPopUpAlertManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPopUpAlertManager_Example-resources.sh"; sourceTree = "<group>"; };
+		EA9EFA7B6B8FD69A1942D92167319573 /* Pods-MPopUpAlertManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPopUpAlertManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		EB494266BA47783242C342DA7305BBD1 /* Pods-MPopUpAlertManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPopUpAlertManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F260A820D5359FA862C117099A3B1B9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FDB684959BF6595D655C2D410EE2A8BF /* MPopUpAlertManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPopUpAlertManager-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C2734B13A823CBB776CC64F1428F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B272D7EFB3FBF1C3D3CDEA9F6CB216 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49B545C231DF40AFD53B16A5187D6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EB79AC9DA69D509684F93BC2B35826 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2CD1DD837208784C7D95F392BE952FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60B85601D3F57DEF350B8BA20FC8E33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE62B39A0B700A24559831CD6B4E7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FDEA111AFD4AE3322929AAD364834ED /* MPopUpAlertManager.framework */,
+				309E210387DD68DEFE119187FA70DDD9 /* Pods_MPopUpAlertManager_Example.framework */,
+				1D0A1A78E92ADA924F9E34F357AA2FB3 /* Pods_MPopUpAlertManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F46483FBE2B3697D15C96F194F591D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F260A820D5359FA862C117099A3B1B9D /* LICENSE */,
+				9A1864A19C8B4CC49E559BBC147BE0F3 /* MPopUpAlertManager.podspec */,
+				9967ABEB37ABF9E5D84A9C6FC1E876FB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		694F428BC66A5BDA8A3C7BA56A33DA8B /* Pods-MPopUpAlertManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB50D309B04514A4D072E0F0588C580 /* Info.plist */,
+				C9313EE140E6EC39166E8365973D46E5 /* Pods-MPopUpAlertManager_Tests.modulemap */,
+				7632429B56829E074F01EA981A1812BB /* Pods-MPopUpAlertManager_Tests-acknowledgements.markdown */,
+				32EE8A29FABC3020A5332A53FACCEBE6 /* Pods-MPopUpAlertManager_Tests-acknowledgements.plist */,
+				A1F05789D0BFFD02799A537314B5E1A6 /* Pods-MPopUpAlertManager_Tests-dummy.m */,
+				96E9118AA29E791C333246F5DDF0BDAA /* Pods-MPopUpAlertManager_Tests-frameworks.sh */,
+				4D33308EA35F1DFEA671E55C62606675 /* Pods-MPopUpAlertManager_Tests-resources.sh */,
+				0EB54E1E9DED202594ADFDC7CF6D7760 /* Pods-MPopUpAlertManager_Tests-umbrella.h */,
+				AE9F834D3913F5AA48EE46EB72B71F5E /* Pods-MPopUpAlertManager_Tests.debug.xcconfig */,
+				EB494266BA47783242C342DA7305BBD1 /* Pods-MPopUpAlertManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-MPopUpAlertManager_Tests";
+			path = "Target Support Files/Pods-MPopUpAlertManager_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B0DEEAA50A90AE1F7FA6933BEE23F91C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2EE62B39A0B700A24559831CD6B4E7AB /* Products */,
+				D1351FB0817E2F4F320DF5607383BD9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B0DEEAA50A90AE1F7FA6933BEE23F91C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB88977C51ECB0028BB6C75898DAE4 /* MPopUpAlertManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEB88977C51ECB0028BB6C75898DAE4 /* MPopUpAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				2F46483FBE2B3697D15C96F194F591D2 /* Pod */,
+				CB6FEC67E4CB4A44F451FB4C942345A4 /* Support Files */,
+			);
+			name = MPopUpAlertManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB6FEC67E4CB4A44F451FB4C942345A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F3E582EB2271043304A8A3E1E04D873 /* Info.plist */,
+				49CCF21D63F2414D784CA2D73E0A3C06 /* MPopUpAlertManager.modulemap */,
+				AC66B4420F234C905C772E1AC68E2A7A /* MPopUpAlertManager.xcconfig */,
+				FDB684959BF6595D655C2D410EE2A8BF /* MPopUpAlertManager-dummy.m */,
+				A28EE162F54F6E379C57B7E161733EB4 /* MPopUpAlertManager-prefix.pch */,
+				5D13370D489E6D571F2EB458AC9426AF /* MPopUpAlertManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPopUpAlertManager";
+			sourceTree = "<group>";
+		};
+		D1351FB0817E2F4F320DF5607383BD9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A85A243D9C303EDCDB48ADDA2336E8 /* Pods-MPopUpAlertManager_Example */,
+				694F428BC66A5BDA8A3C7BA56A33DA8B /* Pods-MPopUpAlertManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2A85A243D9C303EDCDB48ADDA2336E8 /* Pods-MPopUpAlertManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D48FBE2FDEF86C94088794734FEEE0CF /* Info.plist */,
+				63491087EBE4779F707F0886E5098DCC /* Pods-MPopUpAlertManager_Example.modulemap */,
+				984C4299EF6A52C2C6594F2B645E4999 /* Pods-MPopUpAlertManager_Example-acknowledgements.markdown */,
+				11226409FB8D9585D5E9104B244387D4 /* Pods-MPopUpAlertManager_Example-acknowledgements.plist */,
+				27F861546299758178942E15514CFACD /* Pods-MPopUpAlertManager_Example-dummy.m */,
+				C48F8D616648CC099EF3DBBEDA42020B /* Pods-MPopUpAlertManager_Example-frameworks.sh */,
+				E2AA65E226F3AF4B91C16C6E997AE47B /* Pods-MPopUpAlertManager_Example-resources.sh */,
+				EA9EFA7B6B8FD69A1942D92167319573 /* Pods-MPopUpAlertManager_Example-umbrella.h */,
+				D94DF882C33AC3683C1BC3BB45B77B20 /* Pods-MPopUpAlertManager_Example.debug.xcconfig */,
+				74F667080CEDD1FC2AAC8DA69BA5029F /* Pods-MPopUpAlertManager_Example.release.xcconfig */,
+			);
+			name = "Pods-MPopUpAlertManager_Example";
+			path = "Target Support Files/Pods-MPopUpAlertManager_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16FDA9961E770AA13C9D0248540A46CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B8D9FD5EBEB9E37324063A8BD8B9F3 /* MPopUpAlertManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE1D8496EFDBA9EDC80EAC30EEC34E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2E10858B6C70385D5A5A72E9FCE371 /* Pods-MPopUpAlertManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464AA0ECF3974FCFACD7482DE2A74888 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06396321D08AE2956B46B15DF9D8BB98 /* Pods-MPopUpAlertManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65A12BF7996175FC96FED989E9299C13 /* MPopUpAlertManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4ADBFB0C321A2CF68734B8510A4D41 /* Build configuration list for PBXNativeTarget "MPopUpAlertManager" */;
+			buildPhases = (
+				221371856F80FF12F1DB00B1E0EFA61A /* Sources */,
+				F2CD1DD837208784C7D95F392BE952FC /* Frameworks */,
+				16FDA9961E770AA13C9D0248540A46CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPopUpAlertManager;
+			productName = MPopUpAlertManager;
+			productReference = 4FDEA111AFD4AE3322929AAD364834ED /* MPopUpAlertManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E328FB19BE9973036CB3F8EA3D2DF54 /* Pods-MPopUpAlertManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B2052068CAB4702AC277A5AD1CA8D0 /* Build configuration list for PBXNativeTarget "Pods-MPopUpAlertManager_Tests" */;
+			buildPhases = (
+				638F0E5C5BEDC142E4F2B742636B5F48 /* Sources */,
+				28C2734B13A823CBB776CC64F1428F87 /* Frameworks */,
+				3AFE1D8496EFDBA9EDC80EAC30EEC34E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0931A04C804069D40F6DAD0C03A62D /* PBXTargetDependency */,
+			);
+			name = "Pods-MPopUpAlertManager_Tests";
+			productName = "Pods-MPopUpAlertManager_Tests";
+			productReference = 1D0A1A78E92ADA924F9E34F357AA2FB3 /* Pods_MPopUpAlertManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D526072865B6C4449ABCD34F5E870C25 /* Pods-MPopUpAlertManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BECD9F05EF149BB0AD605B99DC5808E7 /* Build configuration list for PBXNativeTarget "Pods-MPopUpAlertManager_Example" */;
+			buildPhases = (
+				2505C087908B169F7D3749CE475B2E92 /* Sources */,
+				B49B545C231DF40AFD53B16A5187D6AA /* Frameworks */,
+				464AA0ECF3974FCFACD7482DE2A74888 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1E08178D37B0D630E6F030C439D939 /* PBXTargetDependency */,
+			);
+			name = "Pods-MPopUpAlertManager_Example";
+			productName = "Pods-MPopUpAlertManager_Example";
+			productReference = 309E210387DD68DEFE119187FA70DDD9 /* Pods_MPopUpAlertManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2EE62B39A0B700A24559831CD6B4E7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A12BF7996175FC96FED989E9299C13 /* MPopUpAlertManager */,
+				D526072865B6C4449ABCD34F5E870C25 /* Pods-MPopUpAlertManager_Example */,
+				7E328FB19BE9973036CB3F8EA3D2DF54 /* Pods-MPopUpAlertManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221371856F80FF12F1DB00B1E0EFA61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4941CFDA8B55449F92EF4A1F2CB31F6 /* MPopUpAlertManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2505C087908B169F7D3749CE475B2E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2A896954453EF22CF08D86E4F27105 /* Pods-MPopUpAlertManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F0E5C5BEDC142E4F2B742636B5F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DB9E77FAEB6C2CA7ED067246D12BFF /* Pods-MPopUpAlertManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A1E08178D37B0D630E6F030C439D939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPopUpAlertManager;
+			target = 65A12BF7996175FC96FED989E9299C13 /* MPopUpAlertManager */;
+			targetProxy = B54829A9709C36DFAD13F3CA4B3D779C /* PBXContainerItemProxy */;
+		};
+		5D0931A04C804069D40F6DAD0C03A62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MPopUpAlertManager_Example";
+			target = D526072865B6C4449ABCD34F5E870C25 /* Pods-MPopUpAlertManager_Example */;
+			targetProxy = C1D6CF461DB3E19C8AF8CDF56CF53AB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		578CE669E85A3997217EF8FE6B787048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9F834D3913F5AA48EE46EB72B71F5E /* Pods-MPopUpAlertManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPopUpAlertManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPopUpAlertManager_Tests/Pods-MPopUpAlertManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C6CAC240229CA29DD502989611A75D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94DF882C33AC3683C1BC3BB45B77B20 /* Pods-MPopUpAlertManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPopUpAlertManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPopUpAlertManager_Example/Pods-MPopUpAlertManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73937E15985190726C67BC027F33AE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC66B4420F234C905C772E1AC68E2A7A /* MPopUpAlertManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPopUpAlertManager/MPopUpAlertManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPopUpAlertManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPopUpAlertManager/MPopUpAlertManager.modulemap";
+				PRODUCT_MODULE_NAME = MPopUpAlertManager;
+				PRODUCT_NAME = MPopUpAlertManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAD9566BD8C0A7DBE7301B0FC9550078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC66B4420F234C905C772E1AC68E2A7A /* MPopUpAlertManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPopUpAlertManager/MPopUpAlertManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPopUpAlertManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPopUpAlertManager/MPopUpAlertManager.modulemap";
+				PRODUCT_MODULE_NAME = MPopUpAlertManager;
+				PRODUCT_NAME = MPopUpAlertManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D176BAC645D98747D273D2FD43252AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F667080CEDD1FC2AAC8DA69BA5029F /* Pods-MPopUpAlertManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPopUpAlertManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPopUpAlertManager_Example/Pods-MPopUpAlertManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF73CA7BD73DA422EFA94AFF92C32469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB494266BA47783242C342DA7305BBD1 /* Pods-MPopUpAlertManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MPopUpAlertManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPopUpAlertManager_Tests/Pods-MPopUpAlertManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C4ADBFB0C321A2CF68734B8510A4D41 /* Build configuration list for PBXNativeTarget "MPopUpAlertManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD9566BD8C0A7DBE7301B0FC9550078 /* Debug */,
+				73937E15985190726C67BC027F33AE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BECD9F05EF149BB0AD605B99DC5808E7 /* Build configuration list for PBXNativeTarget "Pods-MPopUpAlertManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6CAC240229CA29DD502989611A75D0 /* Debug */,
+				D176BAC645D98747D273D2FD43252AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B2052068CAB4702AC277A5AD1CA8D0 /* Build configuration list for PBXNativeTarget "Pods-MPopUpAlertManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578CE669E85A3997217EF8FE6B787048 /* Debug */,
+				DF73CA7BD73DA422EFA94AFF92C32469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
